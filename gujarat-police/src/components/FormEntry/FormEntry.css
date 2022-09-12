@@ -1,0 +1,103 @@
+/* Rectangle 5 */
+.container-1{
+    position: absolute;
+        top: 25%;
+        left: 35%;
+        height: 10%;
+        width: 40%;
+        background: #D9D9D9;
+        border-radius: 20px;
+}
+
+.form1{
+    position: absolute;
+    left: 80%;
+}
+
+.station-label{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.container-2{
+
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    height: 50%;
+    width: 40%;
+
+    /* width: 300px;
+    height: 300px;
+    left: 32px;
+    top: 309px; */
+
+    background: #D9D9D9;
+    border-radius: 40px;
+}
+
+
+.form{
+    position: absolute;
+        top: 20%;
+        left: 30%;
+}
+
+.from-input{
+    height:30px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+}
+
+.form-input-btn{
+
+    position: absolute;
+    top: 400%;
+    left: 30%;
+
+    width: 100px;
+    height: 30px;
+    background: #4D82A8;
+    color: #FFFFFF;
+
+    border-radius: 10px;
+    border: 0;
+}
+
+@media (max-width: 360px){
+    .container-1 {
+            position: absolute;
+            top: 25%;
+            left: 5%;
+            height: 10%;
+            width: 40%;
+            background: #D9D9D9;
+            border-radius: 20px;
+    }
+
+    .container-2 {
+    
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        height: 50%;
+        width: 40%;
+    
+        /* width: 300px;
+        height: 300px;
+        left: 32px;
+        top: 309px; */
+    
+        background: #D9D9D9;
+        border-radius: 40px;
+    }
+    
+    .form {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+}

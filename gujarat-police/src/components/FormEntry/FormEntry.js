@@ -6,14 +6,13 @@ const FormEntry = () => {
         <div>
             <div><img src="https://en.wikipedia.org/wiki/File:Gujarat_Police_Logo.png"/></div>
             <div className="container-1">
-                <from1>
                 <label htmlFor='district' className='station-label'>District, Division, Sub-Division</label>
-                </from1>
             </div>
             <div className='container-2'>
                 <form className='form'>
                     <div className='from-inputs'>
-                    <label htmlFor='mobileno' className='from-label'>Mobile no.: </label>
+                    <label htmlFor='mobileno' className='from-label'>Mobile Number : </label>
+                    <br/>
                     <input 
                         type='text'
                         name='mobileno'

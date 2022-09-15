@@ -1,4 +1,16 @@
 /* Rectangle 5 */
+#main{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .container-1{
 
     margin: auto;
@@ -8,27 +20,19 @@
     border-radius: 20px;
 }
 
-
-/* .combinecontainer{
-    margin-top:40px;
-    align-items:center;
-    text-align:center;
-} */
-
 .container-2{
 
     margin: auto;
     padding: 20px;
     /* height: 50%; */
     width: 50%;
-
     background: #D9D9D9;
     border-radius: 10px;
 }
 
 
 .from-input{
-    height:30px;
+    height: 10%;
     width: 75%;
     background: #FFFFFF;
     border-radius: 5px;
@@ -37,18 +41,22 @@
 
 .form-input-btn{
     margin: 0 auto;
-    
     margin-top: 10px;
     width: 100px;
     height: 30px;
     background: #4D82A8;
     color: #FFFFFF;
-
     border-radius: 10px;
     border: 0;
 }
 
 @media (max-width: 360px){
+    #main{
+        width: 80px;
+        height: 90px;
+        margin-bottom: 10px;
+    }
+
     .container-1 {
         padding: 15px;
         margin: auto;
@@ -56,32 +64,46 @@
         width: 90%;
         background: #D9D9D9;
         border-radius: 10px;
-        margin-bottom: 20px;
         align-items: center;
-        margin-top:200px;
     }
 
     .container-2 {
-
         margin: auto;
         height: 50%;
         width: 90%;
         height: 350px;
         background: #D9D9D9;
-        border-radius: 10px;
-        text-align: center
-
-        
+        border-radius: 10px;        
     }
-    .container-2 .form-input-btn{
-        margin-top: 10px;
-        /* align-items: center; */
-        /* margin-left:23% */
 
+    .container-2 .form{
+        margin-top: 50px;
+        text-size-adjust: auto;
+    }
+
+    .container-2 .form-input{
+        margin-top: 10px;
+        font-size: 17px;
+        width: 100%;
+        text-size-adjust: auto;
+    }
+
+    .container-2 .form-input-btn{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-size-adjust: auto;
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
+    #main {
+            width: 80px;
+            height: 90px;
+            margin-bottom: 10px;
+        }
+
     .container-1 {
             padding: 15px;
             margin: auto;
@@ -91,7 +113,6 @@
             border-radius: 10px;
             margin-bottom: 20px;
             align-items: center;
-            margin-top: 200px;
             text-align: center;
         }
     
@@ -103,8 +124,25 @@
             height: 350px;
             background: #D9D9D9;
             border-radius: 10px;
-            
         }
-
         
+        .container-2 .form {
+            margin-top: 50px;
+            text-size-adjust: auto;
+        }
+        
+        .container-2 .form-input {
+            margin-top: 10px;
+            width: 100%;
+            font-size: 17px;
+            text-size-adjust: auto;
+            }
+        
+        .container-2 .form-input-btn {
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-size-adjust: auto;
+        }
 }

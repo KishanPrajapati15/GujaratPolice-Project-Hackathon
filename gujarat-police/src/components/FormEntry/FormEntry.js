@@ -4,7 +4,12 @@ import './FormEntry.css'
 const FormEntry = () => {
     return (
         <div>
-            <div><img src="https://en.wikipedia.org/wiki/File:Gujarat_Police_Logo.png"/></div>
+            <img id="main" src="../../Gujarat_Police_Logo.png"/>
+            <div className="title">
+                <label>CITIZEN PORTAL, GUJARAT POLICE<br/>
+                    (HOME DEPARTMENT, GOVERNMENT OF GUJARAT)
+                </label>
+            </div>
             <div className="combinecontainer">
                 <div className="container-1">
                     <label htmlFor='district' className='station-label'>District, Division, Sub-Division</label>
@@ -17,7 +22,7 @@ const FormEntry = () => {
                             <input
                                 type='text'
                                 name='mobileno'
-                                className='from-input'
+                                className='form-input'
                                 placeholder='Enter your mobile number'
                             />
                         </div>
@@ -25,7 +30,6 @@ const FormEntry = () => {
                     </form>
                 </div>
             </div>
-            
         </div>
     )
 }

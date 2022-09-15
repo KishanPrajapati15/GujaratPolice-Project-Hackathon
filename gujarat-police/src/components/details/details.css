@@ -1,0 +1,65 @@
+/* Rectangle 5 */
+.container-1 {
+    margin: auto;
+    height: 10%;
+    width: 50%;
+    background: #D9D9D9;
+    border-radius: 20px;
+    
+}
+
+
+.container-2 {
+
+    margin: auto;
+    padding: 20px;
+    /* height: 50%; */
+    width: 50%;
+    background: #D9D9D9;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.from-input {
+    height: 30px;
+    width: 75%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+}
+
+.form-input-btn {
+    margin: 0 auto;
+
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: #4D82A8;
+    color: #FFFFFF;
+
+    border-radius: 10px;
+    border: 0;
+}
+
+@media (max-width: 360px) {
+    .container-1 {
+
+        margin: auto;
+        height: 10%;
+        width: 90%;
+        background: #D9D9D9;
+        border-radius: 20px;
+        margin-top: 200px;
+    }
+
+    .container-2 {
+
+        margin: auto;
+        height: 50%;
+        width: 90%;
+
+        background: #D9D9D9;
+        border-radius: 10px;
+    }
+}

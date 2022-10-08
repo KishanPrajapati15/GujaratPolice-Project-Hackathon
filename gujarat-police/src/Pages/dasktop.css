@@ -13,6 +13,7 @@ body{
     margin-top: 120px;
     border-radius: 10px;
     padding: 10px;
+    /* box-shadow: 3px 3px 3px; */
 }
 
 .innerContainer{
@@ -23,19 +24,66 @@ body{
 
 .inputField{
     width : 70%;
-    height : 20px;
+    height : 35px;
     border-radius: 5px;
     border-width: 0px;
+    margin-top: 8px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 3px 3px 15px;
 }
 
 .lableClass{
-    font-size:17px;
+    font-size:25px;
     font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+    color: rgb(60, 57, 57);
 }
 
 .btnClass{
-    height: 25px;
-    width: 60px;
+  
+    background-color: #4CAF50; /* Green */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  /* padding: 32px; */
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 28px;
+  box-shadow: 3px 3px 15px rgba(84, 76, 76, 0.612);
+}
+.btnClass:hover{
+    background-color: #454a45;
+}
+
+.btnClasse{
+  
+    background-color: #45817f; /* Green */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  /* padding: 32px; */
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 28px;
+  box-shadow: 3px 3px 15px rgba(84, 76, 76, 0.612);
+}
+.btnClasse:hover{
+    background-color: #454a45;
 }
 
 .btnDiv{
@@ -67,9 +115,15 @@ body{
     width: 70%;
     margin: auto;
     margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 5px 5px 15px rgba(157, 151, 151, 0.46);
 }
 
 .heading{
     text-align: center;
     margin: 10px;
+    font-weight: bold;
+    font-size: 30px;
 }

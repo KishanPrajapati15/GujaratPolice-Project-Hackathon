@@ -88,26 +88,26 @@ const Login = () => {
                     {/* <img id="main" src="../../Gujarat_Police_Logo.png" /> */}
                     <Gujimg/>
                     <div className="title">
-                <label>CITIZEN PORTAL, GUJARAT POLICE<br/>
+                <label style={{fontWeight:"bold"}}>CITIZEN PORTAL, GUJARAT POLICE<br/>
                     (HOME DEPARTMENT, GOVERNMENT OF GUJARAT)
                 </label>
             </div>
                     {/* <h4 style={{color: "red", fontWeight:"bold", textAlign:"center"}}>20CS065 Kishan Prajapati</h4> */}
-                    <div style={{background:"#C1CCCC", padding:"20px",paddingBottom:"25px",borderRadius:"5px", marginLeft:"10%", marginRight:"10%"}}>
+                    <div style={{background:"#C1CCCC", padding:"20px",paddingBottom:"25px",fontSize:"20px",borderRadius:"5px", marginLeft:"10%", marginRight:"10%"}}>
                         <h3 className='text-center col-lg-6-center'>Admin login</h3>
                         <Form >
 
-                            <Form.Group className="mb-3 col-lg-6-center" controlId="formBasicEmail" style={{width:"50%", marginLeft:"25%"}}>
+                            <Form.Group className="mb-3 col-lg-6-center" controlId="formBasicEmail" style={{width:"50%", marginLeft:"25%", borderRadius:"6px"}}>
 
-                                <Form.Control style={{padding:"10px", marginBottom:"5px"}} type="email" name='email' onChange={getdata} placeholder="Enter email" />
+                                <Form.Control style={{padding:"20px", border:"none" ,marginBottom:"5px", borderRadius:"6px", fontSize:"20px",boxShadow:"3px 3px 15px rgba(84, 76, 76, 0.612)"}} type="email" name='email' onChange={getdata} placeholder="Enter email" />
                             </Form.Group>
 
                             <Form.Group className="mb-3 col-lg-6-center" controlId="formBasicPassword" style={{width:"50%", marginLeft:"25%"}}>
 
-                                <Form.Control style={{padding:"10px", marginBottom:"5px"}} type="password" name='password' onChange={getdata} placeholder="Password" />
+                                <Form.Control style={{padding:"18px",border:"none", boxShadow:"3px 3px 15px rgba(84, 76, 76, 0.612)", marginBottom:"5px", borderRadius:"6px", fontSize:"20px"}} type="password" name='password' onChange={getdata} placeholder="Password" />
                                 
                             </Form.Group>
-                            <button onClick={addData} style={{ background: "#97C8C8", marginTop:"5px", padding:"5px"}} type="submit" >
+                            <button onClick={addData} style={{ background: "#97C8C8",border:"none" ,boxShadow:"3px 3px 15px rgba(84, 76, 76, 0.612)", marginTop:"5px", padding:"20px",borderRadius:"6px", fontSize:"20px"}} type="submit" >
                                 Submit
                         </button>
                             {/* <Button variant="primary" className='col-lg-12-center' onClick={addData} style={{ background: "#97C8C8 " }} type="submit" >

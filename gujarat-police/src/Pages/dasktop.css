@@ -1,0 +1,75 @@
+body{
+    /* background-color: rgb(160, 160, 160); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    background-color: rgb(195, 195, 195);
+    width : 90vw;
+    /* height: 80vh; */
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.innerContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 40px;
+}
+
+.inputField{
+    width : 70%;
+    height : 20px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.lableClass{
+    font-size:17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btnClass{
+    height: 25px;
+    width: 60px;
+}
+
+.btnDiv{
+    margin: auto;
+}
+
+.resultDiv{
+    height: 250px;
+    border: 2px solid black;
+    margin: 30px;
+}
+
+.downloadBtnDiv{
+    margin: auto;
+    width : 79px;
+}
+
+.cqCode{
+    border: 2px solid black;
+    margin: auto;
+    height : 350px;
+    width : 350px;
+}
+
+.graphdiv{
+    border-radius: 5px;
+    border : 2px solid black;
+    height: 500px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.heading{
+    text-align: center;
+    margin: 10px;
+}
